@@ -12,9 +12,9 @@ Random Picker client is the app for <https://github.com/escsun/random-picker>
 ## Run
 - yarn start
 
-## Buiild
+## Build
 - yarn build
 
-## Build electron
+## Build Desktop App
 - yarn pack
 - yarn dist
