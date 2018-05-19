@@ -1,6 +1,6 @@
 import split from './split';
 
-// Нормализация данных user
+// Normalize user data
 const userNormalize = (user) => {
   const data = split(user, ',', 3);
   return {
