@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {MuiThemeProvider} from 'material-ui/styles';
+import {MuiThemeProvider} from '@material-ui/core/styles';
 import {Provider} from 'react-redux';
 import './index.css';
 import theme from './utils/theme';

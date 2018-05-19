@@ -1,10 +1,12 @@
 import React from 'react';
-import Paper from 'material-ui/Paper';
+import Paper from '@material-ui/core/Paper';
 import PropTypes from 'prop-types';
 import {compose} from 'redux';
 import {connect} from 'react-redux';
-import {withStyles} from 'material-ui/styles';
-import {ListItem, ListItemIcon, ListItemText} from 'material-ui/List';
+import {withStyles} from '@material-ui/core/styles';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
 import {getUsers} from '../core/selectors/users';
 import userNormalize from '../utils/userNormalize';
 import UserIcon from './UserIcon';

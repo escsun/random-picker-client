@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import List from 'material-ui/List';
-import {withStyles} from 'material-ui/styles';
+import List from '@material-ui/core/List';
+import {withStyles} from '@material-ui/core/styles';
 import UserItem from './UserItem';
 
 const styles = theme => ({
