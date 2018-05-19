@@ -1,5 +1,5 @@
-// Custom Split Func like in python, java, etc
-// split('-','a-b-c-d-e-f',3)
+// The split function like in python, java, etc
+// split('a-b-c-d-e-f','-',3)
 // => ["a", "b", "c-d-e-f"]
 const split = (string, delimiter, n) => {
   const parts = string.split(delimiter);
